@@ -51,16 +51,17 @@ This project is an **IoT-based Smart Plant Watering System** built using an ESP8
   4. Automatically turn on the relay if soil moisture is below the threshold.
   5. Relay can also be controlled manually from Blynk.
 
-```cpp
-BLYNK_WRITE(V0) {
-  relayState = param.asInt();
-  digitalWrite(relay, relayState);
-}
-
 # System Diagram
 <img width="3000" height="1731" alt="image" src="https://github.com/user-attachments/assets/5cbeff66-3163-4fed-9a59-156bc96c4423" />
 
 #Blynk App Output
 <img width="3000" height="1731" alt="image" src="https://github.com/user-attachments/assets/d3e89705-a8c7-457d-ba91-329d937fbbc7" />
+
+
+```cpp
+BLYNK_WRITE(V0) {
+  relayState = param.asInt();
+  digitalWrite(relay, relayState);
+}
 
 
