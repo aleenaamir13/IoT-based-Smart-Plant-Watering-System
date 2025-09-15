@@ -52,10 +52,12 @@ This project is an **IoT-based Smart Plant Watering System** built using an ESP8
   5. Relay can also be controlled manually from Blynk.
 
 # System Diagram
-<img width="3000" height="1731" alt="image" src="https://github.com/user-attachments/assets/5cbeff66-3163-4fed-9a59-156bc96c4423" />
+<img width="3000" height="1758" alt="image" src="https://github.com/user-attachments/assets/9c2830c1-83eb-4c2d-9c5b-8ae00ab4935f" />
+
 
 #Blynk App Output
-<img width="3000" height="1731" alt="image" src="https://github.com/user-attachments/assets/d3e89705-a8c7-457d-ba91-329d937fbbc7" />
+<img width="3000" height="1731" alt="image" src="https://github.com/user-attachments/assets/71612aee-1673-412a-94b6-c6f8f87f5565" />
+
 
 
 ```cpp
